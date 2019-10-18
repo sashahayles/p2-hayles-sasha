@@ -1,0 +1,45 @@
+* {
+  header: 0;
+  body: 0;
+}
+/*hamburger menu*/
+#nav-toggle {
+  color: black;
+  text-decoration: none;
+}
+
+.desk-menu {
+  display: none;
+  text-decoration: none;
+}
+nav {
+  display: none;
+}
+
+.hero {
+    background-image: url('../imgs/mustardseeds.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+.hero-txt {
+  text-align:right;
+  position:absolute;
+  text-align: center;
+  left:15%;
+  top:25%;
+  font-family: 'special elite', sans-serif;
+  color: #fdcc0d;
+  font-size:1.5rem;
+}
+h2 {
+  font-family: 'karla-bold', sans-serif;
+  font-size: 1.1rem;
+  color: #323263;
+}
+main {
+  width:80%;
+  margin:4rem auto;
+
+}
