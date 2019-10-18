@@ -17,11 +17,11 @@ nav {
 }
 
 .hero {
-    background-image: url('../imgs/mustardseeds.png');
+    background-image: url('imgs/mustardseeds.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 250px;
+    background-position:bottom;
+    height:260px;
   }
 .hero-txt {
   text-align:right;
@@ -40,7 +40,7 @@ h2 {
 }
 main {
   width:80%;
-  margin:4rem auto;
+  margin:3rem auto;
 }
 h3 {
   color:#323263;
