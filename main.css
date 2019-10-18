@@ -1,7 +1,4 @@
-* {
-  header: 0;
-  body: 0;
-}
+
 /*hamburger menu*/
 #nav-toggle {
   color: black;
@@ -17,12 +14,12 @@ nav {
 }
 
 .hero {
-    background-image: url('imgs/mustardseeds.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:bottom;
-    height:260px;
-  }
+  background-image: url('imgs/mustardseeds.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+  height:260px;
+}
 .hero-txt {
   text-align:right;
   position:absolute;
@@ -51,9 +48,7 @@ h3 {
   text-align: center;
 }
 img {
-  width:25vw;
-  height:17vw;
-  margin:0.5%;
+  margin: 0.5%;
 }
 button {
   text-align:center;
@@ -68,5 +63,4 @@ button {
 footer {
   background-color: #fbe474;
   height:100px;
-
 }
