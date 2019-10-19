@@ -25,7 +25,7 @@ nav {
   position:absolute;
   text-align: center;
   left:15%;
-  top:15%;
+  top:10%;
   font-family: 'special elite', sans-serif;
   color: #fdcc0d;
   font-size:1.5rem;
@@ -37,7 +37,7 @@ h2 {
 }
 main {
   width:80%;
-  margin:3rem auto;
+  margin:1rem auto;
 }
 h3 {
   color:#323263;
@@ -62,5 +62,10 @@ button {
 }
 footer {
   background-color: #fbe474;
-  height:100px;
+  height:120px;
+}
+h4 {
+  color:#1f6097;
+  font-family: 'karla', serif;
+  font-size: 0.9rem;
 }
