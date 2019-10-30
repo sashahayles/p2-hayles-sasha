@@ -56,16 +56,30 @@ button {
   background-color:#323263;
   border: none;
   border-radius: 4px;
-  padding:10px;
+  padding:14px;
   font-family: 'special elite', serif;
-  font-size:1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 footer {
   background-color: #fbe474;
   height:120px;
+  display:flex;
 }
 h4 {
   color:#1f6097;
   font-family: 'karla', serif;
   font-size: 0.9rem;
+  margin:0.2em;
+  padding-left:1.2%;
+}
+.col {
+  flex:50%;
+}
+.contact-info {
+  margin:1px;
+  padding-left:1.2%;
+}
+.social {
+  padding-left:0;
 }
