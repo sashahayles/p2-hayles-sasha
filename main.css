@@ -113,6 +113,37 @@ h1 {
   font-size: 1.5rem;
 }
 .howtohelp {
+
+}
+/*accordion*/
+#accordion {
+  width: 25%;
+      margin-left: auto;
+      position: absolute;
+      top: 50%;
+      right: 2%;
+}
+
+.accordion-header {
+  height:45px;
   display: flex;
-  flex-wrap: wrap;
+  align-items:center;
+  background-color: #e75339;
+  margin:10px auto;
+  color: white;
+  padding:0 20px;
+  justify-content: space-between;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.open-p {
+  height:0;
+  overflow: hidden;
+  font-size:0.7rem;
+  transition: height 0.4s;
+}
+.accordion-open {
+  height:170px;
+  padding:6px 3px;
+  transition: height 0.4s;
 }
