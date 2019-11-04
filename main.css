@@ -83,3 +83,12 @@ h4 {
 .social {
   padding-left:0;
 }
+/*Gallery page*/
+.maingallery {
+  display: flex;
+}
+
+.maingallery img {
+  margin-right: 10px;
+  display: block;
+}
