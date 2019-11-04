@@ -92,3 +92,23 @@ h4 {
   margin-right: 10px;
   display: block;
 }
+/*donate page*/
+.hero-donate {
+  background-image: url('imgs/helpinghands.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+  height:260px;
+}
+.hero-button button {
+  padding: 15px 40px;
+  font-size: 1.4rem;
+  text-align:right;
+  position:absolute;
+  top:27%;
+  right:45%;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
