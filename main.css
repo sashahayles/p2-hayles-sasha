@@ -147,3 +147,11 @@ h1 {
   padding:6px 3px;
   transition: height 0.4s;
 }
+@media (max-width:850px) {
+  #accordion {
+    width: 70%;
+    margin:auto;
+    position: unset;
+    top: 0;
+    right: 0;
+}
