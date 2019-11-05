@@ -60,6 +60,10 @@ button {
   font-family: 'special elite', serif;
   font-size: 1rem;
   margin-bottom: 1rem;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 footer {
   background-color: #fbe474;
@@ -107,17 +111,26 @@ h4 {
   position:absolute;
   top:27%;
   right:45%;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+button:hover {
+ background-color:#1f6097;
 }
 h1 {
   text-align: center;
   font-size: 1.5rem;
+  color:#e75339;
 }
 .howtohelp {
+  margin:0px;
 
 }
 /*accordion*/
 #accordion {
-  width: 25%;
+  width: 23%;
       margin-left: auto;
       position: absolute;
       top: 50%;
@@ -130,11 +143,14 @@ h1 {
   align-items:center;
   background-color: #e75339;
   margin:10px auto;
-  color: white;
+  color:white;
   padding:0 20px;
   justify-content: space-between;
   border-radius: 4px;
   font-size: 0.8rem;
+}
+.accordion-header h3 {
+  color:white;
 }
 .open-p {
   height:0;
