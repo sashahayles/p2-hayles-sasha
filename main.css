@@ -70,6 +70,14 @@ footer {
   height:120px;
   display:flex;
 }
+.other-foot {
+  height:90px;
+  width:100%;
+  margin-top:3%;
+}
+.other-foot .col {
+
+}
 h4 {
   color:#1f6097;
   font-family: 'karla', serif;
@@ -83,6 +91,10 @@ h4 {
 .contact-info {
   margin:1px;
   padding-left:1.2%;
+  color: #323263;
+  font-family: 'quicksand';
+  font-weight:500;
+  font-size: 0.7rem;
 }
 .social {
   padding-left:0;
@@ -119,18 +131,27 @@ h4 {
 button:hover {
  background-color:#1f6097;
 }
+.hero-button {
+  text-align: center;
+}
 h1 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color:#e75339;
+  font-family: 'karla-bold', sans-serif;
 }
+.howtohelp h2 {
+  font-size: 0.9rem;
+}
+
 .howtohelp {
   margin:0px;
 
 }
+
 /*accordion*/
 #accordion {
-  width: 23%;
+  width: 18%;
       margin-left: auto;
       position: absolute;
       top: 50%;
@@ -158,10 +179,20 @@ h1 {
   font-size:0.7rem;
   transition: height 0.4s;
 }
+.open-p p {
+  font-family: 'quicksand';
+  font-size:0.7rem;
+}
 .accordion-open {
-  height:170px;
-  padding:6px 3px;
+  height:160px;
+  padding:3px 3px;
   transition: height 0.4s;
+}
+.accordion-span {
+  color: #1f6097;
+  font-weight:bold;
+  text-decoration: underline;
+  cursor: pointer;
 }
 @media (max-width:850px) {
   #accordion {
