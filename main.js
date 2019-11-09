@@ -1,3 +1,4 @@
+//accordion start
 var accordionTitle = document.querySelectorAll('#accordion .accordion-header');
 var accordDesc =document.querySelectorAll('#accordion .open-p')
 
@@ -17,3 +18,12 @@ function openAccordion() {
 for (i=0; i < accordionTitle.length; i++) {
   accordionTitle[i].addEventListener ('click', openAccordion);
 }
+//accordion end
+//hamburger menu
+var hamburgerButton = document.getElementById('hamburger');
+var navMenu = document.querySelector('.menu');
+
+function toggleMenu() {
+  navMenu.classList.toggle('show-mobile-menu');
+}
+hamburgerButton.addEventListener('click',toggleMenu);
