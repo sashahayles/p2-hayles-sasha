@@ -8,40 +8,23 @@
 </head>
 <body>
   <header>
-    <!--hamburger menu-->
-    <a id="nav-toggle" href="#">&#9776;</a>
-    <!--hamburger menu end-->
-    <nav>
+    <button id="hamburger"> &#9776; </button>
+    <div class="menu">
       <ul>
-        <li>
-          <a class="desk-menu" href="index.html">Home</a>
-        </li>
-        <li>
-          <a class="desk-menu" href="index.html">Guiding Principles</a>
-        </li>
-        <li>
-          <a class="desk-menu" href="index.html">Services</a>
-        </li>
-        <li>
-          <a class="desk-menu" href="gallery.html">Art Gallery</a>
-        </li>
-        <li>
-          <a class="desk-menu" href="donate.html">Donate</a>
-        </li>
-        <li>
-          <a class="desk-menu" href="index.html">Contact Us</a>
-        </li>
-        <li>
-          <a class="desk-menu" href="index.html">Restricted</a>
-        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Guiding Principles</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="gallery.html">Art Gallery</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Restricted</a></li>
       </ul>
-    </nav>
+    </div>
   </header>
-  <main>
+  <main class="gallerypage">
     <section class="maingallery">
       <img src="imgs/John_B_BillieHoliday.jpg" alt="John B Billie Holiday" title="Billie Holiday John B"/>
-      <h1>Billie Holiday by John B.</h1>
-      <p>Acrylic Price: $75 (includes frame)</p>
+      <h1>Billie Holiday by John B. <br><span class="gallerytitle">Acrylic Price: $75 (includes frame)</span></h1>
     </section>
 
     <section>
@@ -69,5 +52,6 @@
           <img src="imgs/twitter.png" alt="Twitter icon" title="Twitter icon"/>
         </div>
       </footer>
+      <script src="main.js"></script>
     </body>
     </html>

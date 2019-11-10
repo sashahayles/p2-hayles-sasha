@@ -128,8 +128,21 @@ h4 {
 }
 
 .maingallery img {
-  margin-right: 10px;
   display: block;
+  max-width:65%;
+  margin: auto;
+}
+.gallerypage {
+  width:80%;
+}
+.gallerytitle {
+  font-family: 'quicksand';
+  font-size: 0.9rem;
+  color: black;
+}
+.maingallery h1 {
+  font-family: 'special elite';
+  font-size:1.5rem;
 }
 /*donate page*/
 .hero-donate {
@@ -177,6 +190,7 @@ h1 {
 
 .howtohelp {
   margin:4px;
+    width:80%;
 }
 
 
@@ -251,4 +265,7 @@ h1 {
 .howtohelp {
   margin: auto;
 }
+.maingallery {
+  display:block;
+    max-width: 90%;
 }
