@@ -27,3 +27,12 @@ function toggleMenu() {
   navMenu.classList.toggle('show-mobile-menu');
 }
 hamburgerButton.addEventListener('click',toggleMenu);
+//learn more extend
+var pennylink = document.getElementById ("learnbutton"),
+morepenny = document.getElementById("pennymore");
+pennylink.addEventListener("click", function(event) {
+  event.preventDefault();
+  morepenny.style.display = (pennymore.style.display==="none") ? "block" :
+  "none";
+  }, false);
+  pennymore.style.display ="none";

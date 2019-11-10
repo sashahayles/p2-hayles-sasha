@@ -33,7 +33,6 @@
 .hero {
   background-image: url('imgs/mustardseeds.png');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position:bottom;
   height:260px;
 }
@@ -42,10 +41,10 @@
   position:absolute;
   text-align: center;
   left:15%;
-  top:10%;
+  top:15%;
   font-family: 'special elite', sans-serif;
   color: #fdcc0d;
-  font-size:1.5rem;
+  font-size:3rem;
 }
 h2 {
   font-family: 'karla-bold', sans-serif;
@@ -53,7 +52,6 @@ h2 {
   color: #323263;
 }
 main {
-  width:80%;
   margin:1rem auto;
 }
 h3 {
@@ -63,6 +61,13 @@ h3 {
 }
 .services{
   text-align: center;
+}
+#pennymore {
+  transition: height 0.5s;
+}
+.mission {
+  font-family:'quicksand';
+  font-size: 1rem;
 }
 img {
   margin: 0.5%;
