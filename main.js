@@ -1,22 +1,19 @@
 //accordion start
 var accordionTitle = document.querySelectorAll('#accordion .accordion-header');
-var accordDesc =document.querySelectorAll('#accordion .open-p')
-
+var accordDesc = document.querySelectorAll('#accordion .open-p');
 //accordion dropdown
 function openAccordion() {
-
-  //toogle indicator
-  for (i=0; i <accordionTitle.length; i++) {
-    accordionTitle[i].childNodes[3].innerHTML = '▼';
-    accordDesc[i].classList.remove('accordion-open');
-  }
-
-  this.nextElementSibling.classList.toggle ('accordion-open');
-  this.childNodes[3].innerHTML ='▲';
+	//toogle indicator
+	for (i = 0; i < accordionTitle.length; i++) {
+		accordionTitle[i].childNodes[3].innerHTML = '▼';
+		accordDesc[i].classList.remove('accordion-open');
+	}
+	this.nextElementSibling.classList.toggle('accordion-open');
+	this.childNodes[3].innerHTML = '▲';
 }
 //event listener
-for (i=0; i < accordionTitle.length; i++) {
-  accordionTitle[i].addEventListener ('click', openAccordion);
+for (i = 0; i < accordionTitle.length; i++) {
+	accordionTitle[i].addEventListener('click', openAccordion);
 }
 //accordion end
 //hamburger menu
@@ -24,15 +21,38 @@ var hamburgerButton = document.getElementById('hamburger');
 var navMenu = document.querySelector('.menu');
 
 function toggleMenu() {
-  navMenu.classList.toggle('show-mobile-menu');
+	navMenu.classList.toggle('show-mobile-menu');
 }
-hamburgerButton.addEventListener('click',toggleMenu);
+hamburgerButton.addEventListener('click', toggleMenu);
+//hamburger menu end
 //learn more extend
-var pennylink = document.getElementById ("learnbutton"),
-morepenny = document.getElementById("pennymore");
+var pennylink = document.getElementById("learnbutton"),
+	morepenny = document.getElementById("pennymore");
 pennylink.addEventListener("click", function(event) {
-  event.preventDefault();
-  morepenny.style.display = (pennymore.style.display==="none") ? "block" :
-  "none";
-  }, false);
-  pennymore.style.display ="none";
+	event.preventDefault();
+	morepenny.style.display = (pennymore.style.display === "none") ? "block" : "none";
+}, false);
+pennymore.style.display = "none";
+//API random quotes
+var mainSection = document.getElementById('page-quote');
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+	if (this.readyState == 4 && this.status == 200) {
+		var apiResult = JSON.parse(this.responseText);
+		//Code Dealing With The API Data Goes Here
+		console.log(apiResult);
+
+		function showMessage() {
+			apiResult.sort(function(a, b) {
+				return 0.5 - Math.random();
+			});
+			var randomMessageParagraph = document.createElement('p');
+			mainSection.appendChild(randomMessageParagraph);
+			var randomMessageText = document.createTextNode(apiResult[0].text);
+			randomMessageParagraph.appendChild(randomMessageText);
+		}
+		showMessage();
+	}
+};
+xmlhttp.open('GET', 'https://type.fit/api/quotes', true);
+xmlhttp.send();

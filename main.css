@@ -90,7 +90,7 @@ button {
 }
 footer {
   background-color: #fbe474;
-  height:120px;
+  height:90px;
   display:flex;
 }
 .other-foot {
@@ -129,7 +129,7 @@ h4 {
 
 .maingallery img {
   display: block;
-  max-width:65%;
+  max-width:55%;
   margin: auto;
 }
 .gallerypage {
@@ -143,6 +143,9 @@ h4 {
 .maingallery h1 {
   font-family: 'special elite';
   font-size:1.5rem;
+}
+.gallerysection {
+  font-family: 'quicksand';
 }
 /*donate page*/
 .hero-donate {
@@ -267,5 +270,7 @@ h1 {
 }
 .maingallery {
   display:block;
-    max-width: 90%;
+}
+.maingallery img {
+  max-width:100%;
 }
