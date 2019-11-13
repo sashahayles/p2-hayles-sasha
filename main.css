@@ -27,21 +27,24 @@
   color: #323263;
   box-shadow: none;
   font-size:2rem;
+  padding:1px;
 }
 /*nav end*/
 
 .hero {
   background-image: url('imgs/mustardseeds.png');
   background-repeat: no-repeat;
-  background-position:bottom;
-  height:260px;
+      background-position: top;
+      height: 320px;
+}
+.hero-txt {
+  margin-left:30px;
 }
 .hero-txt h1 {
-  text-align:right;
-  position:absolute;
+  display: table-cell;
   text-align: center;
-  left:15%;
-  top:15%;
+  vertical-align: middle;
+  height: 170px;
   font-family: 'special elite', sans-serif;
   color: #fdcc0d;
   font-size:3rem;
@@ -53,6 +56,7 @@ h2 {
 }
 main {
   margin:1rem auto;
+  width:90%;
 }
 h3 {
   color:#323263;
@@ -64,6 +68,11 @@ h3 {
 }
 #pennymore {
   transition: height 0.5s;
+}
+#pennymore p {
+  font-family: 'quicksand';
+  font-size:0.8rem;
+  text-align:left;
 }
 .mission {
   font-family:'quicksand';
