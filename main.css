@@ -71,8 +71,20 @@ h3 {
 }
 #pennymore p {
   font-family: 'quicksand';
-  font-size:0.8rem;
+  font-size:0.9rem;
   text-align:left;
+  width:80%;
+  margin:auto;
+}
+.learnquote {
+  text-align: center;
+  font-style: italic;
+  color: #e75339;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 0.85rem;
+  display: table;
+  margin: auto;
 }
 .mission {
   font-family:'quicksand';
