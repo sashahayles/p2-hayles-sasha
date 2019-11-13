@@ -34,8 +34,8 @@
 .hero {
   background-image: url('imgs/mustardseeds.png');
   background-repeat: no-repeat;
-      background-position: top;
-      height: 320px;
+  background-position: top;
+  height: 320px;
 }
 .hero-txt {
   margin-left:30px;
@@ -169,15 +169,17 @@ h4 {
   padding: 15px 40px;
   font-size: 1.4rem;
   position: absolute;
-  top:27%;
-  right:45%;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
   border: none;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
 button:hover {
- background-color:#1f6097;
+  background-color:#1f6097;
 }
 
 .donateside {
@@ -202,17 +204,17 @@ h1 {
 
 .howtohelp {
   margin:4px;
-    width:80%;
+  width:80%;
 }
 
 
 /*accordion*/
 #accordion {
   width: 18%;
-      margin-left: auto;
-      position: absolute;
-      top: 57%;
-      right: 2%;
+  margin-left: auto;
+  position: absolute;
+  top: 57%;
+  right: 2%;
 }
 
 .accordion-header {
@@ -273,13 +275,13 @@ h1 {
     position: unset;
     top: 0;
     right: 0;
-}
-.howtohelp {
-  margin: auto;
-}
-.maingallery {
-  display:block;
-}
-.maingallery img {
-  max-width:100%;
-}
+  }
+  .howtohelp {
+    margin: auto;
+  }
+  .maingallery {
+    display:block;
+  }
+  .maingallery img {
+    max-width:100%;
+  }
