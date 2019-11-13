@@ -166,6 +166,8 @@ h4 {
 .maingallery h1 {
   font-family: 'special elite';
   font-size:1.5rem;
+  transform: translate(0, 12%);
+  text-align: left;
 }
 .gallerysection {
   font-family: 'quicksand';
@@ -302,3 +304,4 @@ h1 {
   .maingallery img {
     max-width:100%;
   }
+}
