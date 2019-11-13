@@ -49,3 +49,4 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open('GET', 'https://type.fit/api/quotes', true);
 xmlhttp.send();
+//gallery Slideshow

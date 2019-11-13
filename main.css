@@ -6,7 +6,7 @@
   transition: height 1s;
 }
 .show-mobile-menu {
-  height: 340px;
+  height: 280px;
   transition: height 1s;
 }
 .menu ul {
@@ -14,13 +14,15 @@
   padding-left: 0;
 }
 .menu ul li a {
-  height:100px;
+  height:35px;
   font-size: 16px;
-  border-bottom:2px solid black;
+  border-bottom:2px solid #fbe474;
   display: flex;
   align-items:center;
   justify-content:center;
   text-decoration: none;
+  font-family: 'quicksand';
+  font-weight: 500;
 }
 #hamburger {
   background-color: white;
@@ -168,6 +170,8 @@ h4 {
 .gallerysection {
   font-family: 'quicksand';
 }
+/*gallery start*/
+/*gallery end*/
 /*donate page*/
 .hero-donate {
   background-image: url('imgs/helpinghands.jpg');
