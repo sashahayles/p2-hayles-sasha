@@ -1,5 +1,5 @@
 
-/*NAV TEST*/
+/*NAV*/
 .menu {
   height: 0px;
   overflow: hidden;
@@ -169,10 +169,14 @@ h4 {
   transform: translate(0, 12%);
   text-align: left;
 }
-.gallerysection {
+.gallerysection {rem;
   font-family: 'quicksand';
 }
-/*gallery start*/
+.seemore-art {
+  color: #e75339;
+  font-family: 'karla-bold';
+  cursor: pointer;
+}
 /*gallery end*/
 /*donate page*/
 .hero-donate {
