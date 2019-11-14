@@ -147,6 +147,7 @@ h4 {
   display: block;
   max-width:55%;
   margin: auto;
+  flex-basis: 50%;
 }
 .gallerypage {
   width:80%;
@@ -161,6 +162,7 @@ h4 {
   font-size:1.5rem;
   transform: translate(0, 12%);
   text-align: left;
+  flex-basis: 40%;
 }
 .gallerysection {
   font-family: 'quicksand', sans-serif;
@@ -276,7 +278,7 @@ h1 {
 }
 @media (min-width:768px) {
   .menu {
-    height: 55px;
+    height: 60px;
   }
   .menu ul {
     display:flex;
@@ -292,7 +294,7 @@ h1 {
   }
   .menu ul li a:hover {
     color:#fdcc0d;
-    transition: color 1s;
+    transition: color 0.5ss;
   }
 }
 
