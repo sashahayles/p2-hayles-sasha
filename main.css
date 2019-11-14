@@ -40,13 +40,13 @@
   height: 320px;
 }
 .hero-txt {
-  margin-left:30px;
+  margin-left:55px;
 }
 .hero-txt h1 {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  height: 170px;
+  height: 300px;
   font-family: 'Special Elite', cursive;
   color: #fdcc0d;
   font-size:3rem;
@@ -276,13 +276,23 @@ h1 {
 }
 @media (min-width:768px) {
   .menu {
-    height: auto;
+    height: 55px;
   }
   .menu ul {
     display:flex;
+    justify-content: space-evenly;
   }
   #hamburger {
     display: none;
+  }
+  .menu ul li a {
+    border-bottom: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+  .menu ul li a:hover {
+    color:#fdcc0d;
+    transition: color 1s;
   }
 }
 
