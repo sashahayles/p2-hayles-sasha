@@ -117,14 +117,6 @@ footer {
   height:90px;
   display:flex;
 }
-.other-foot {
-  height:90px;
-  width:100%;
-  margin-top:3%;
-}
-.other-foot .col {
-
-}
 h4 {
   color:#1f6097;
   font-family: 'Karla', sans-serif;
@@ -141,7 +133,7 @@ h4 {
   color: #323263;
   font-family: 'quicksand', sans-serif;
   font-weight:500;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 .social {
   padding-left:0;
@@ -192,8 +184,8 @@ h4 {
 .hero-donate button {
   padding: 15px 40px;
   font-size: 1.4rem;
-  position: absolute;
-  top: 35%;
+  position: relative;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align:center;
