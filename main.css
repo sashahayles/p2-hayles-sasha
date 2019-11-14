@@ -21,7 +21,7 @@
   align-items:center;
   justify-content:center;
   text-decoration: none;
-  font-family: 'quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-weight: 500;
 }
 #hamburger {
@@ -47,14 +47,15 @@
   text-align: center;
   vertical-align: middle;
   height: 170px;
-  font-family: 'special elite', sans-serif;
+  font-family: 'Special Elite', cursive;
   color: #fdcc0d;
   font-size:3rem;
 }
 h2 {
-  font-family: 'karla-bold', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 1.1rem;
   color: #323263;
+  font-weight: 700;
 }
 main {
   margin:1rem auto;
@@ -62,7 +63,7 @@ main {
 }
 h3 {
   color:#323263;
-  font-family: 'karla', sans-serif;
+  font-family: 'Karla', sans-serif;
   text-align: center;
 }
 .services{
@@ -72,7 +73,7 @@ h3 {
   transition: height 0.5s;
 }
 #pennymore p {
-  font-family: 'quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size:0.9rem;
   text-align:left;
   width:80%;
@@ -89,7 +90,7 @@ h3 {
   margin: auto;
 }
 .mission {
-  font-family:'quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
 }
 img {
@@ -103,7 +104,7 @@ button {
   border: none;
   border-radius: 4px;
   padding:14px;
-  font-family: 'special elite', serif;
+  font-family: 'special elite', cursive;
   font-size: 1rem;
   margin-bottom: 1rem;
   border: none;
@@ -126,7 +127,7 @@ footer {
 }
 h4 {
   color:#1f6097;
-  font-family: 'karla', serif;
+  font-family: 'Karla', sans-serif;
   font-size: 0.9rem;
   margin:0.2em;
   padding-left:1.2%;
@@ -138,7 +139,7 @@ h4 {
   margin:1px;
   padding-left:1.2%;
   color: #323263;
-  font-family: 'quicksand';
+  font-family: 'quicksand', sans-serif;
   font-weight:500;
   font-size: 0.7rem;
 }
@@ -159,23 +160,24 @@ h4 {
   width:80%;
 }
 .gallerytitle {
-  font-family: 'quicksand';
+  font-family: 'quicksand', sans-serif;
   font-size: 0.9rem;
   color: black;
 }
 .maingallery h1 {
-  font-family: 'special elite';
+  font-family: 'special elite', cursive;
   font-size:1.5rem;
   transform: translate(0, 12%);
   text-align: left;
 }
 .gallerysection {rem;
-  font-family: 'quicksand';
+  font-family: 'quicksand', sans-serif;
 }
 .seemore-art {
   color: #e75339;
-  font-family: 'karla-bold';
+  font-family: 'Karla', sans-serif;
   cursor: pointer;
+  font-weight: 700;
 }
 /*gallery end*/
 /*donate page*/
@@ -213,7 +215,8 @@ h1 {
   text-align: center;
   font-size: 1.2rem;
   color:#e75339;
-  font-family: 'karla-bold', sans-serif;
+  font-family: 'Karla', sans-serif;
+  font-weight:700;
 }
 .howtohelp h2 {
   font-size: 1rem;
@@ -262,7 +265,7 @@ h1 {
   transition: height 0.4s;
 }
 .open-p p {
-  font-family: 'quicksand';
+  font-family: 'quicksand', sans-serif;
   font-size:0.7rem;
 }
 .accordion-open {
