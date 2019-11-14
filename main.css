@@ -116,6 +116,7 @@ footer {
   background-color: #fbe474;
   height:105px;
   display:flex;
+  width:100%;
 }
 h4 {
   color:#1f6097;
