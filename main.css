@@ -162,7 +162,7 @@ h4 {
   transform: translate(0, 12%);
   text-align: left;
 }
-.gallerysection {rem;
+.gallerysection {
   font-family: 'quicksand', sans-serif;
 }
 .seemore-art {
@@ -274,7 +274,7 @@ h1 {
   text-decoration: underline;
   cursor: pointer;
 }
-@media (min-wdith:768px) {
+@media (min-width:768px) {
   .menu {
     height: auto;
   }
